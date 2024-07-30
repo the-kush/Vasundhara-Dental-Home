@@ -94,9 +94,9 @@ const HomeFacilities = () => {
     const renderContent = (content) => {
         return content.map((item, index) => (
           <div key={index} className="p-4 border rounded-lg mb-4 bg-gray-50 shadow-md">
-            <h4 className="text-xl font-semibold mb-2">{item.title}</h4>
+            <h4 className="text-xl font-semibold mb-3">{item.title}</h4>
             <p className="text-justify">
-              {expanded[index] ? item.content : `${item.content.substring(0, 200)}...`}
+              {expanded[index] ? item.content : `${item.content.substring(0, 350)}...`}
             </p>
             <button onClick={() => toggleExpand(index)} className="underline text-blue-600">
               {expanded[index] ? 'Read less' : 'Read more'}
