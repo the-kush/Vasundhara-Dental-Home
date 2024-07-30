@@ -13,6 +13,9 @@ const KopalSingh = () => {
           <h3 className="text-2xl font-semibold mt-2 text-gray-600">BDS, MDS, FIAPD</h3>
           <h6 className="text-lg font-medium mt-1 text-gray-600 italic">Pediatric and Preventive Dentistry <br /> Reg. No.: 15898</h6>
         </div>
+        <a href="https://www.linkedin.com/in/dr-kopal-singh-04480610a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className="text-blue-600">
+              <FaLinkedin size={24} />
+        </a>
         <div>
           <p className="text-base leading-7 text-justify">
             Dr. Kopal Singh, a graduate of Bharati Vidyapeeth Dental College & Hospital, Mumbai (2019), completed her Master’s degree in Pediatric and Preventive Dentistry from ITS Dental College, Ghaziabad in 2023. In 2024, she founded Vasundhara Dental Home in Delhi, introducing a visionary approach that integrates cutting-edge technologies to provide precise and minimally invasive treatments. <br /><br />
@@ -21,9 +24,7 @@ const KopalSingh = () => {
             Our goal is to ensure that our patients receive age-appropriate, evidence-based quality care, fostering a healthy and positive attitude towards oral care and dental treatments. We measure our success by the smiles on the faces of our patients !!
           </p>
           <div className="flex justify-center mt-4">
-            <a href="https://www.linkedin.com/in/dr-kopal-singh-04480610a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className="text-blue-600 p-10">
-              <FaLinkedin size={36} />
-            </a>
+
           </div>
         </div>
       </div>
