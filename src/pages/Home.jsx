@@ -4,6 +4,7 @@ import KopalSingh from '../components/KopalSingh'
 import HomeFacilities from '../components/HomeFacilities'
 import Reviews from '../components/Reviews'
 import WhatsappBooking from '../components/WhatsappBooking'
+import SocialMedia from '../components/SocialMedia'
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
     <HomeFacilities />
     <Reviews />
     <WhatsappBooking />
+    <SocialMedia />
     </>
   )
 }

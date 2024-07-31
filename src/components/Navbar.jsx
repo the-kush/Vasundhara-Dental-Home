@@ -1,9 +1,8 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import Logo from "../assets/logo.png";
-import { FaMapMarkedAlt, FaPhoneAlt, FaWhatsapp } from "react-icons/fa";
+import { FaMapMarkedAlt, FaPhoneAlt } from "react-icons/fa";
 import { MdMail } from "react-icons/md";
-import { FaFacebook, FaInstagram } from 'react-icons/fa6';
 
 
 const Navbar = () => {
@@ -76,12 +75,6 @@ const Navbar = () => {
                 }
             </ul>
         </div>
-
-            <div className='text-black lg:flex justify-end gap-4 items-center mr-16 hidden'>
-                <a href="" className='hover:text-black-500'><FaFacebook className='text-2xl text-blue-500'/></a>
-                <a href="https://www.instagram.com/vasundhara_dental_home?igsh=MWxmYzBjdHF1cGI3MA==" className='hover:text-black-500'><FaInstagram className='text-2xl text-pink-600'/></a>
-                <a href="https://wa.link/090sm7" className='hover:text-black-500'><FaWhatsapp className='text-2xl text-green-600'/></a>
-            </div>
     </nav>
     </header>
   )
