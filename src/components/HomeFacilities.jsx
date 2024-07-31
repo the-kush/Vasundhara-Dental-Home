@@ -23,15 +23,15 @@ const HomeFacilities = () => {
       content: `“Prevention is better cure” Children at high risk of dental decay are indicated for application of dental fluoride that not only helps to strengthen tooth enamel, making it more resistant to decay but also repairs early stages of tooth decay even before they become visible and inhibits the growth of harmful oral bacteria. This makes fluoride an essential part of maintaining good oral health and protecting against the common problem of tooth decay and is recommended to be applied biannualy.`,
     },
     {
-      title: '3. Dental Caries Treatment*',
+      title: '3. Dental Caries Treatment',
       content: `We address cavities in both milk teeth and permanent teeth using various methods such as Silver Diamine Fluoride (SDF) to arrest cavities, fillings with suitable materials, crowns (caps) for added protection, pulp therapy (root canal treatment), extractions, and space maintainers.`,
     },
     {
-        title: '4. Tooth Fractures*',
+        title: '4. Tooth Fractures',
         content: `If your child injures or fractures a front tooth, it's crucial to seek immediate dental care. For chipped permanent teeth, keep the broken piece in water and visit us promptly. If a permanent tooth is knocked out, it can often be replanted. Apply ice to reduce bleeding, find the tooth, and gently rinse it if soiled, holding it by the crown. Place the tooth back in its socket if possible, or keep it in your child's saliva, cold milk, or coconut water, and rush to us. For all other mouth injuries, ensure your child is otherwise well and hasn't vomited or fainted, then visit us immediately.`
     },
     {
-        title: '5. Crooked Teeth*',
+        title: '5. Crooked Teeth',
         content: `We prevent and correct malocclusions (crowding, buck teeth, etc.) in growing children. This includes helping children break habits like thumb or lip sucking. We use growth modification appliances for children with some permanent teeth, and sometimes in baby teeth. Fixed braces are used for older children and teenagers.`
     },
     {
@@ -69,12 +69,12 @@ const HomeFacilities = () => {
       {
         title: '6. Aligning The Crooked Teeth',
         content: `Orthodontics is a specialized branch of dentistry focused on correcting misaligned teeth and jaws to improve both function and smile aesthetics. Orthodontists use braces, aligners, and retainers to gradually shift teeth into proper alignment. Beyond enhancing appearance, orthodontic treatment is crucial for promoting oral health by reducing the risk of dental issues like decay, gum disease, and TMJ disorders. Properly aligned teeth also contribute to better chewing, speech, and self-confidence. Treatment plans are personalized based on factors such as age, dental health, and patient preferences, aiming to achieve a balanced bite and a lasting, radiant smile. With digital orthodontic treatment, we can certainly resolve your problems in a much shorter duration. Orthodontic treatment can be done with the following:- 
-                  » Metal Braces
-                  » Ceramic Braces (Tooth Colored Braces)
-                  » Lingual Braces (Invisible Braces)
-                  » Damon Braces 
-                  » Incognito Braces
-                  » Invisalign or Clear Aligners.`,
+                  1) Metal Braces
+                  2) Ceramic Braces (Tooth Colored Braces)
+                  3) Lingual Braces (Invisible Braces)
+                  4) Damon Braces 
+                  5) Incognito Braces
+                  6) Invisalign or Clear Aligners.`,
       },
       {
         title: '7. Periodontal Care',
