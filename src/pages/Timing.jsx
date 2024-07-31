@@ -1,4 +1,5 @@
 import React from 'react'
+import WhatsappBooking from '../components/WhatsappBooking';
 
 const Timing = () => {
 
@@ -28,6 +29,7 @@ const Timing = () => {
           </div>
         ))}
       </div>
+      <WhatsappBooking />
     </div>
   )
 }

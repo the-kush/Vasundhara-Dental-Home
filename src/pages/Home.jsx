@@ -3,6 +3,7 @@ import ImageSlidder from '../components/ImageSlidder'
 import KopalSingh from '../components/KopalSingh'
 import HomeFacilities from '../components/HomeFacilities'
 import Reviews from '../components/Reviews'
+import WhatsappBooking from '../components/WhatsappBooking'
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
     <KopalSingh />
     <HomeFacilities />
     <Reviews />
+    <WhatsappBooking />
     </>
   )
 }
