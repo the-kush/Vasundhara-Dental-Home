@@ -10,36 +10,30 @@ const ContactUs = () => {
       <div className="p-12 pl-24 pr-24">
         <h1 className="text-6xl font-bold text-center mb-10 text-orange-300">Contact Us</h1>
         <div className="grid grid-cols-1 md:grid-cols-2">
-          {/* First Column */}
           <div className="space-y-8">
-            {/* Row 1 */}
             <div className="flex items-center space-x-4">
               <FaPhone className="text-blue-500" size={36} />
               <span className="text-xl pl-20">+91 9990277066</span>
             </div>
-            {/* Row 2 */}
             <div className="flex items-center space-x-4">
               <FaEnvelope className="text-green-500" size={36} />
               <span className="text-xl pl-20">dr.kopalsingh21@gmail.com</span>
             </div>
-            {/* Row 3 */}
             <div className="flex items-center space-x-4">
               <FaMapMarkerAlt className="text-red-500" size={36} />
               <span className="text-xl pl-20">E-333/4, Khosla Market, <br />
               Opp Mahesh Apt, <br />
               New Ashok Nagar, Delhi - 110096</span>
             </div>
-            {/* Row 4 */}
             <div className="flex items-center space-x-4">
               <FaThumbsUp className="text-yellow-500" size={36} />
               <span className="text-lg flex space-x-4 pl-20">
-                <a href="https://www.instagram.com/vasundhara_dental_home?igsh=MWxmYzBjdHF1cGI3MA==" className='hover:text-black-500'><FaFacebook className='text-2xl text-blue-500'/></a>
+                <a href="https://www.facebook.com/profile.php?id=61559639683181&mibextid=ZbWKwL" className='hover:text-black-500'><FaFacebook className='text-2xl text-blue-500'/></a>
                 <a href="https://www.instagram.com/vasundhara_dental_home?igsh=MWxmYzBjdHF1cGI3MA==" className='hover:text-black-500'><FaInstagram className='text-2xl text-pink-600'/></a>
               </span>
             </div>
           </div>
 
-          {/* Second Column */}
           <div className="flex items-center justify-center">
             <img
               src={loc}
