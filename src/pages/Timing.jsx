@@ -15,7 +15,7 @@ const Timing = () => {
   ];
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-violet-100 p-4 font-serif">
+    <div className="min-h-screen flex flex-col items-center justify-center bg-violet-100 pb-24 font-serif">
       <h1 className="text-6xl font-bold mb-16 text-center text-neutral-600">Timing</h1>
       <div className="w-full max-w-3xl bg-white rounded-lg shadow-md p-6">
         <div className="grid grid-cols-2 border-b border-gray-200 pb-3 mb-3">

@@ -7,7 +7,7 @@ import WhatsappBooking from '../components/WhatsappBooking';
 const ContactUs = () => {
   return (
     <div className="font-serif">
-      <div className="p-12 pl-24 pr-24">
+      <div className="p-12 pl-24 pr-24 pb-36">
         <h1 className="text-6xl font-bold text-center mb-10 text-orange-300">Contact Us</h1>
         <div className="grid grid-cols-1 md:grid-cols-2">
           <div className="space-y-8">
