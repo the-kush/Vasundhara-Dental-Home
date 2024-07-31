@@ -2,6 +2,7 @@ import React from 'react'
 import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaThumbsUp } from 'react-icons/fa';
 import { FaFacebook, FaInstagram } from 'react-icons/fa6';
 import loc from "../assets/loc.png";
+import WhatsappBooking from '../components/WhatsappBooking';
 
 const ContactUs = () => {
   return (
@@ -51,6 +52,7 @@ const ContactUs = () => {
       <div className='text-center bg-red-200'><h4 className='text-2xl'>*<u>NOTE</u>*</h4>
       <p className='text-xl'>Bookings are done mainly through WhatsApp. It can also be done by calling on the phone number or visiting the clinic.</p>
       </div>
+      <WhatsappBooking />
     </div>
   )
 }
