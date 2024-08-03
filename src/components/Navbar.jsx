@@ -46,16 +46,16 @@ const Navbar = () => {
           <div className="mt-6 flex flex-col pl-24 md:flex-row justify-center items-start text-center md:text-left">
             <div className="md:mr-16">
               <div className="flex items-center justify-center md:justify-start mb-2">
-                <FaPhoneAlt className="mr-2" />
+                <FaPhoneAlt className="mr-8" />
                 <span>+91 9990277066</span>
               </div>
               <div className="flex items-center justify-center md:justify-start mb-2">
-                <MdMail className="mr-2" />
+                <MdMail className="mr-8" />
                 <span>dr.kopalsingh21@gmail.com</span>
               </div>
             </div>
             <div className="flex items-center justify-center md:justify-start">
-              <FaMapMarkedAlt className="mr-2" />
+              <FaMapMarkedAlt className="mr-4" />
               <div>
                 <p>E-333/4, Khosla Market,</p>
                 <p>Opp Mahesh Apt,</p>
