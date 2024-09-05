@@ -38,31 +38,34 @@ const Navbar = () => {
           <div className="flex flex-col md:flex-row justify-center items-center">
             <img className="object-cover h-24 md:h-48 mr-4 md:mr-16" src={Logo} alt="Logo" />
             <div className="flex flex-col items-center md:items-start">
-              <strong className="font-sans text-3xl md:text-6xl font-bold text-center md:text-left">Vasundhara Dental Home</strong>
+              <strong className="font-sans text-3xl md:text-6xl font-bold text-center md:text-left pt-8 ">Vasundhara Dental Home</strong>
               <span className="italic text-sm md:text-xl text-center md:text-left">for Family & Kids</span>
+          
+              <div className='grid sm:grid-cols-1 lg:grid-cols-2 pt-12'>
+                <div>
+                  <div className='flex sm:pt-2 p-1'>
+                  <FaPhoneAlt size={20}/>
+                  <span className='pl-6 lg:text-lg sm:text-base'>+91 9990277066</span>
+                </div>
+                <div className='flex p-1'>
+                  <MdMail size={20}/>
+                  <span className='pl-6 lg:text-lg sm:text-base'>vasundharadentalhome@gmail.com</span>
+                </div>
+                </div>
+                <div className='grid grid-cols-10 p-1'>
+                  <div className='col-span-1'>
+                  <FaMapMarkedAlt size={20}/>
+                  </div>
+                  <div className='col-span-9 pl-6 lg:text-lg sm:text-base'>
+                  <p>E-333/4, Khosla Market,</p>
+                <p>Opp Mahesh Apt,</p>
+                <p>New Ashok Nagar, Delhi - 110096</p>
+                </div>
+                </div>
+              </div>
             </div>
           </div>
 
-          <div className="mt-6 flex flex-col pl-24 md:flex-row justify-center items-start text-center md:text-left">
-            <div className="md:mr-16">
-              <div className="flex items-center justify-center md:justify-start mb-2">
-                <FaPhoneAlt className="mr-8" />
-                <span>+91 9990277066</span>
-              </div>
-              <div className="flex items-center justify-center md:justify-start mb-2">
-                <MdMail className="mr-8" />
-                <span>dr.kopalsingh21@gmail.com</span>
-              </div>
-            </div>
-            <div className="flex items-center justify-center md:justify-start">
-              <FaMapMarkedAlt className="mr-4" />
-              <div>
-                <p>E-333/4, Khosla Market,</p>
-                <p>Opp Mahesh Apt,</p>
-                <p>New Ashok Nagar, Delhi - 110096</p>
-              </div>
-            </div>
-          </div>
           <div className="mt-4 md:hidden flex justify-center">
             <button onClick={handleToggle}>
               {isOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
